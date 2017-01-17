@@ -19,7 +19,7 @@ int main() {
     int death = 0;
     
     // Intro
-    cout << "Welcome to Hangman, coded by avmey in the winter of 2017." << endl;
+    cout << "Welcome to HANGMAN, coded by avmey in the winter of 2017." << endl;
     cout << "Ready to play? (yes/no)" << endl;
     cin >> play;
     
@@ -102,6 +102,9 @@ int main() {
             }
             
             if(numUnder == 0) {
+                cout << " o   < Thanks!" << endl;
+                cout << "-|-" << endl;
+                cout << " ^ " << endl;
                 cout << "Congrats! You've won the game & saved the man!" << endl;
                 return 0;
             }
@@ -112,32 +115,53 @@ int main() {
             death = death + 1;
             
             if(death == 1){
-                cout << "o" << endl;
+                cout << ",---" << endl;
+                cout << "o   |" << endl;
+                cout << "    |" << endl;
+                cout << "    |" << endl;
+                cout << "____|" << endl;
             }
             else if (death == 2) {
-                cout << "o" << endl;
-                cout << "|" << endl;
+                cout << ",---" << endl;
+                cout << "o   |" << endl;
+                cout << "|   |" << endl;
+                cout << "    |" << endl;
+                cout << "____|" << endl;
             }
             else if (death == 3) {
-                cout << " o" << endl;
-                cout << "-|" << endl;
+                cout << " ,---" << endl;
+                cout << " o   |" << endl;
+                cout << "-|   |" << endl;
+                cout << "     |" << endl;
+                cout << "_____|" << endl;
             }
             else if (death == 4) {
-                cout << " o" << endl;
-                cout << "-|-" << endl;
+                cout << " ,---" << endl;
+                cout << " o   |" << endl;
+                cout << "-|-  |" << endl;
+                cout << "     |" << endl;
+                cout << "_____|" << endl;
             }
             else if (death == 5) {
-                cout << " o" << endl;
-                cout << "-|-" << endl;
-                cout << "/" << endl;
+                cout << " ,---" << endl;
+                cout << " o   |" << endl;
+                cout << "-|-  |" << endl;
+                cout << "/    |" << endl;
+                cout << "_____|" << endl;
             }
             else if (death == 6) {
-                cout << " o" << endl;
-                cout << "-|-" << endl;
-                cout << " ^ " << endl;
-                cout << "You have killed your man! Better luck next time!" << endl;
+                cout << " ,---" << endl;
+                cout << " o   |" << endl;
+                cout << "-|-  |" << endl;
+                cout << " ^   |" << endl;
+                cout << "_____|" << endl;
+                cout << "You have killed the man! Better luck next time!" << endl;
                 return 0;
             }
+            for(int i =0; i < int(wordVec.size()); i++) {
+                cout << wordVec[i];
+            }
+            cout << endl;
         }
     }
 }
