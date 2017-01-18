@@ -93,6 +93,8 @@ int main() {
             cout << endl;
             cout << "There are " << count << " " << letter << "'s" << endl;
             count = 0;
+            cout << endl << endl;
+            
         
             int numUnder = 0;
             for(int i =0; i < int(wordVec.size()); i++) {
@@ -155,13 +157,14 @@ int main() {
                 cout << "-|-  |" << endl;
                 cout << " ^   |" << endl;
                 cout << "_____|" << endl;
-                cout << "You have killed the man! Better luck next time!" << endl;
+                cout << "You have killed the man!" << endl;
+                cout << "Your word was " << word << ". Better luck next time!" << endl;
                 return 0;
             }
             for(int i =0; i < int(wordVec.size()); i++) {
                 cout << wordVec[i];
             }
-            cout << endl;
+            cout << endl << endl << endl;
         }
     }
 }
