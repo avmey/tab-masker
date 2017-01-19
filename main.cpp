@@ -117,46 +117,46 @@ int main() {
             death = death + 1;
             
             if(death == 1){
-                cout << ",---" << endl;
+                cout << ",---," << endl;
                 cout << "o   |" << endl;
                 cout << "    |" << endl;
                 cout << "    |" << endl;
-                cout << "____|" << endl;
+                cout << "____|_" << endl;
             }
             else if (death == 2) {
-                cout << ",---" << endl;
+                cout << ",---," << endl;
                 cout << "o   |" << endl;
                 cout << "|   |" << endl;
                 cout << "    |" << endl;
-                cout << "____|" << endl;
+                cout << "____|_" << endl;
             }
             else if (death == 3) {
-                cout << " ,---" << endl;
+                cout << " ,---," << endl;
                 cout << " o   |" << endl;
                 cout << "-|   |" << endl;
                 cout << "     |" << endl;
-                cout << "_____|" << endl;
+                cout << "_____|_" << endl;
             }
             else if (death == 4) {
-                cout << " ,---" << endl;
+                cout << " ,---," << endl;
                 cout << " o   |" << endl;
                 cout << "-|-  |" << endl;
                 cout << "     |" << endl;
-                cout << "_____|" << endl;
+                cout << "_____|_" << endl;
             }
             else if (death == 5) {
-                cout << " ,---" << endl;
+                cout << " ,---," << endl;
                 cout << " o   |" << endl;
                 cout << "-|-  |" << endl;
                 cout << "/    |" << endl;
-                cout << "_____|" << endl;
+                cout << "_____|_" << endl;
             }
             else if (death == 6) {
-                cout << " ,---" << endl;
+                cout << " ,---," << endl;
                 cout << " o   |" << endl;
                 cout << "-|-  |" << endl;
                 cout << " ^   |" << endl;
-                cout << "_____|" << endl;
+                cout << "_____|_" << endl;
                 cout << "You have killed the man!" << endl;
                 cout << "Your word was " << word << ". Better luck next time!" << endl;
                 return 0;
