@@ -1,6 +1,6 @@
 # HANGMAN
-
-Written 1/17/17 by avmey.
+A command line game.
+Written on 1/17/17 by avmey.
 Intended to be downloaded and played through terminal.
 
 Created to test C++ skills.
