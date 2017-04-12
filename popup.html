@@ -1,0 +1,29 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="popup.js"></script>
+    <title>Tab Masker</title>
+    <!--
+      - The header: "New Tab Name:", the text field for user input
+      - and the submit button are separated by divs which makes it
+      - easier to style in style.css 
+     -->
+  <body>
+      <div id="information">
+      <b>New Tab Name:</b>
+      </div>
+      <div id="textFieldDiv">
+      <input id="textField" type="text" name="name"s/>
+      </div>
+      <div id="buttonDiv">
+      <input id="submitButton" type="button" value="Submit" />
+      </div>
+  </body>
+</html>
+
