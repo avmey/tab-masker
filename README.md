@@ -1,8 +1,5 @@
-# HANGMAN
-A command line game.
-Written on 1/17/17 by avmey.
-Intended to be downloaded and played through terminal.
+# TAB MASKER
+A tab-renaming Chrome extension.
+Written on 1/21/17 by avmey and Vaibhav Bafna.
 
-Created to test C++ skills.
-Words file attributable to:
-https://github.com/first20hours/google-10000-english/blob/master/google-10000-english-usa-no-swears-long.txt
+Full length description at http://avmey.me/tab-masker
